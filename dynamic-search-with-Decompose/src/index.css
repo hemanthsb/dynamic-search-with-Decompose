@@ -1,0 +1,116 @@
+.main {
+  grid-area: main;
+}
+
+body {
+  font: 1.6rem Helvetica;
+  height: 100vh;
+  margin: 0;
+  background: #e1f5c4;
+}
+
+.header {
+  grid-area: header;
+  background-color: #203040;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+  text-decoration: none;
+}
+
+.subtitle {
+  text-transform: uppercase;
+  padding-right: 40%;
+}
+
+.posts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.posts li {
+  list-style-type: none;
+  padding: 0;
+  flex: 0 1 34rem;
+  margin: 1rem;
+  height: 25rem;
+  width: 35rem;
+  border-bottom: 0.1rem #c0c0c0 solid;
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.82);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.82);
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.82);
+  background-color: #a7bfe8;
+  border-radius: 10px;
+}
+
+.post {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  text-decoration: none;
+}
+
+.post-title {
+  padding-top: 10px;
+  font-size: 1.2rem;
+  color: black;
+  height: 5rem;
+  text-transform: uppercase;
+  background-color: palegoldenrod;
+  text-align: center;
+}
+
+.post-body {
+  padding-bottom: 5%;
+  font-size: 1rem;
+  color: #000;
+  margin-left: 2rem;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.input {
+  width: 80%;
+  padding: 12px 24px;
+  margin: 3rem;
+
+  background-color: transparent;
+  transition: transform 250ms ease-in-out;
+  font-size: 14px;
+  line-height: 18px;
+
+  color: #575756;
+  background-color: transparent;
+  border-radius: 50px;
+  border: 1px solid #575756;
+  transition: all 250ms ease-in-out;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+}
+
+.input ::placeholder {
+  color: color(#575756 a(0.8));
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+.input :hover,
+:focus {
+  padding: 12px 0;
+  outline: 0;
+  border: 1px solid transparent;
+  border-bottom: 1px solid #575756;
+  border-radius: 0;
+  background-position: 100% center;
+}
+.site-card-border-less-wrapper {
+  padding: 30px;
+  background: #ececec;
+  width: 650px;
+  margin: 240px;
+}
